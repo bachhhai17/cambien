@@ -1,12 +1,12 @@
 #define BLYNK_TEMPLATE_ID "TMPL6kwY-y_AW"
 #define BLYNK_TEMPLATE_NAME "cambien"
 #define BLYNK_AUTH_TOKEN "ltl1bUoUg7X75uqYYLaiWh0d8Arlf_0W"
-
+//dinh dang cua tai khoan blynk
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 #include <string.h>
-
+//test commit
 #include "DHT.h"
 
 //DHT define
@@ -21,7 +21,7 @@ int button;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-
+// tên và pass wifi
 char ssid [] ="Thuy Nga";
 char pass []="nga0936258058";
 
